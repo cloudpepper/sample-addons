@@ -1,0 +1,10 @@
+<odoo>
+    <template id="visitor_ip_template" name="Visitor IP">
+        <t t-call="website.layout">
+            <div class="container">
+                <h1>Your IP Address</h1>
+                <p>Your IP address is: <strong t-esc="visitor_ip"/></p>
+            </div>
+        </t>
+    </template>
+</odoo>
